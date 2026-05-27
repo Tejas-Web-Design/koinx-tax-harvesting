@@ -1,73 +1,80 @@
-# React + TypeScript + Vite
+# KoinX Tax Loss Harvesting App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + TypeScript web application that simulates a Tax Loss Harvesting dashboard for crypto portfolios.
 
-Currently, two official plugins are available:
+Built as part of the KoinX Frontend Intern Assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add your deployed link here:
 
-## Expanding the ESLint configuration
+https://your-vercel-link.vercel.app
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📂 GitHub Repository
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+ GitHub repo link here:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+https://github.com/yourusername/koinx-tax-harvesting
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 📸 Screenshots
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Desktop View
+
+Add screenshot here
+
+<img width="1615" height="903" alt="image" src="https://github.com/user-attachments/assets/9f02cbe4-5a8f-4228-ac0e-68995c513a32" />
+
+
+---
+
+## Mobile View
+
+Add screenshot here
+
+![Mobile Screenshot](./screenshots/mobile.png)
+
+---
+
+## ✨ Features
+
+- Responsive modern UI
+- Pre Harvesting tax summary
+- After Harvesting live calculations
+- Select/Deselect holdings
+- Select All functionality
+- View All Holdings feature
+- Real-time tax savings calculation
+- Error state UI
+- Loading state UI
+- Mock API integration
+- Reusable React components
+- TypeScript support
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+
+---
+
+# 📁 Folder Structure
+
+```bash
+src/
+│
+├── api/
+├── components/
+├── types/
+├── utils/
+├── assets/
+└── App.tsx
