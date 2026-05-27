@@ -128,7 +128,7 @@ Fully optimized for:
 
 # 📁 Folder Structure
 
-```bash
+
 src/
 │
 ├── api/             # Mock APIs
@@ -138,7 +138,9 @@ src/
 ├── assets/          # Images & Icons
 └── App.tsx          # Main Application
 
-👩‍💻 Author
+--------
+
+# 👩‍💻 Author
 Tejasri Konidena ✨
 
 Frontend Developer 🚀
